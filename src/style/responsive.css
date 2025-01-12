@@ -48,7 +48,11 @@
 .banner_text{
     font-size: 0.9rem;
 }
+.showcase_wrapper{
+    flex-direction: column;
+}
     /* Home */
+
 }
 @media only screen and (max-width: 576px) {
     .containers{
