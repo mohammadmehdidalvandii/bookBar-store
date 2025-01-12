@@ -91,5 +91,13 @@ body{
     }
 }
 /* <<<< button-white >>>> */
+/* <<<< title>>>> */
+.title{
+    display: block;
+    font-family: var(--black);
+    font-size: 3rem;
+    color: var(--primary);
+}
+/* <<<< title>>>> */
 /* <<<<>>>> */
 /* <<<<>>>> */
