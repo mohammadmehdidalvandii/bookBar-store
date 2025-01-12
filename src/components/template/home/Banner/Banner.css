@@ -1,0 +1,48 @@
+.banner{
+    display: block;
+    width: 100%;
+    background-color: var(--background);
+}
+.banner_content{
+    display: block;
+    margin-top: 8rem;
+}
+.banner_offer{
+    display: flex;
+    font-family: var(--black);
+    font-size: 2rem;
+    color: var(--gray-100);
+}
+.banner_offer span{
+    display: block;
+    font-family: var(--black);
+    font-size: 2rem;
+    color: var(--orange-100);
+    margin-right: 0.2rem;
+}
+.banner_title{
+    display: block;
+    font-family: var(--black);
+    font-size: 4.5rem;
+    margin-top: 1rem;
+    color: var(--primary);
+}
+.banner_text{
+    display: block;
+    margin-top: 1rem;
+    font-family: var(--medium);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-100);
+}
+.banner_buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.banner_img{
+    display: block;
+    margin-top: 6rem;
+    width: 100%;
+}
+

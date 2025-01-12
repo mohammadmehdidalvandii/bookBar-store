@@ -1,7 +1,11 @@
+import React from "react"
+import Banner from "../../components/template/home/Banner/Banner"
 
-function Home() {
+function Home(): React.ReactElement{
   return (
-    <div>Home</div>
+    <>
+    <Banner/>
+    </>
   )
 }
 
