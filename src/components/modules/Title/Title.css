@@ -1,0 +1,18 @@
+.wrapperTitle{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.wrapperTitle_title{
+    display: block;
+    font-family: var(--black);
+    font-size: 3rem;
+    color: var(--primary);
+}
+.wrapperTitle_text{
+    display: block;
+    margin-top: 1rem;
+    font-family: var(--bold);
+    color: var(--text-100);
+}
