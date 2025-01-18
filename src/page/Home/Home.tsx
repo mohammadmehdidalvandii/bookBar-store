@@ -4,6 +4,7 @@ import Showcase from "../../components/template/home/Showcase/Showcase"
 import Selling from "../../components/template/home/Selling/Selling"
 import People from "../../components/template/home/People/People"
 import Suggest from "../../components/template/home/Suggest/Suggest"
+import Author from "../../components/template/home/Author/Author"
 
 function Home(): React.ReactElement{
   return (
@@ -13,6 +14,7 @@ function Home(): React.ReactElement{
     <Selling/>
     <People/>
     <Suggest/>
+    <Author/>
     <br /><br /><br /><br /><br />
     </>
   )
