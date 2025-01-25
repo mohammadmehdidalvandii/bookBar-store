@@ -5,6 +5,7 @@ import Selling from "../../components/template/home/Selling/Selling"
 import People from "../../components/template/home/People/People"
 import Suggest from "../../components/template/home/Suggest/Suggest"
 import Author from "../../components/template/home/Author/Author"
+import Footer from "../../components/modules/Footer/Footer"
 
 function Home(): React.ReactElement{
   return (
@@ -15,7 +16,7 @@ function Home(): React.ReactElement{
     <People/>
     <Suggest/>
     <Author/>
-    <br /><br /><br /><br /><br />
+    <Footer/>
     </>
   )
 }
