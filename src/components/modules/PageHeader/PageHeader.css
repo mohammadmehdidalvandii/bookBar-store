@@ -1,0 +1,26 @@
+.pageHeader{
+    display: block;
+    width: 100%;
+    background-color: #c1c1c1;
+}
+.pageHeader_wrapper{
+    display: block;
+    text-align: center;
+    padding-block: 5rem ;
+}
+.pageHeader_title{
+    display: block;
+    font-family: var(--black);
+    font-size: 3rem;
+}
+.pageHeader_link{
+    display: block;
+    text-decoration: none;
+    font-family: var(--bold);
+    font-size: 1.2rem;
+    color: var(--text-100);
+    transition: all 0.4s linear;
+    &:hover{
+        color: var(--blue-100);
+    }
+}
