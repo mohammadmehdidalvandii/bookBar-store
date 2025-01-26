@@ -1,0 +1,36 @@
+.shop{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.shop_search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 3rem;
+    border: 1px solid var(--gray-100);
+    border-radius: 0.5rem;
+}
+.shop_search_input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: unset;
+}
+.shop_search_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: none  ;
+    width: 100px;
+    height: inherit;
+    outline: none;
+    border: none;
+    background-color: unset;
+    transition: all 0.4s linear;
+    &:hover{
+        color: var(--blue-100);
+    }
+}
