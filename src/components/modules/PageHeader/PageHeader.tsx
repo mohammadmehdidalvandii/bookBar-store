@@ -2,7 +2,8 @@ import React from 'react';
 import './PageHeader.css';
 import { Link } from 'react-router-dom';
 
-const PageHeader:React.FC = ({title}:String)=> {
+
+const PageHeader:React.FC<string> = ({title})=> {
   return (
     <section className="pageHeader">
         <div className="container">

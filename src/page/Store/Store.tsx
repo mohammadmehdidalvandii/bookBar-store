@@ -4,7 +4,9 @@ import PageHeader from '../../components/modules/PageHeader/PageHeader'
 function Store():React.ReactElement {
   return (
     <>
-    <PageHeader title='فروشگاه'/>
+    <PageHeader 
+      title='فروشگاه'
+    />
     </>
   )
 }
